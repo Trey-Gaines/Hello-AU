@@ -15,7 +15,7 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: 20)
                 .ignoresSafeArea(.all)
                 .foregroundStyle(auBlue)
-            VStack(alignment: .center, spacing: 30) {
+            VStack(alignment: .center, spacing: 40) {
                 Image("AUPNG")
                     .resizable()
                     .scaledToFit()
